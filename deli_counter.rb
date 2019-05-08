@@ -19,6 +19,6 @@ def now_serving(katz_deli)
   puts #{katz_deli}.shift
   if katz_deli == 0 
     puts "There is nobody waiting to be served!"
-  else 
+  else puts katz_deli.shift
   end
 end 
