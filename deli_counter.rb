@@ -16,6 +16,7 @@ def take_a_number(katz_deli, name)
 end
 def now_serving(katz_deli)
   string = "Currently serving #{name}"
+  puts #{name}.shift
   if katz_deli == 0 
     puts "There is nobody waiting to be served!"
   else 
